@@ -150,3 +150,10 @@ CONFIG_LIBCURL_OPENSSL=y
 # CONFIG_LIBCURL_WOLFSSL is not set
 # CONFIG_LIBCURL_GNUTLS is not set
 # CONFIG_LIBCURL_NOSSL is not set
+
+### QOS ####
+CONFIG_PACKAGE_nft-qos=y
+CONFIG_PACKAGE_qosify=y
+CONFIG_PACKAGE_luci-app-nft-qos=y
+CONFIG_PACKAGE_luci-app-sqm=y
+
